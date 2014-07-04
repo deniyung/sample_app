@@ -1,4 +1,4 @@
-require 'secuerandom'
+require 'securerandom'
 
 def secure_token
 		token_file = Rails.root.join('.secret')
